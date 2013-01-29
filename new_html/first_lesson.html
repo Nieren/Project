@@ -3,12 +3,53 @@
   <head>
     <title>Learning Javascript</title>
   <script type='text/javascript'>
-    function message(name) {
-    	return 'Hey there ' + name + ', Imma hit you with a stick';
+
+    var name = 'Joe';
+    function message() {
+      return 'hey there, ' + name + '!';
     }
+
     function sayHello() {
-    	alert(message('your name'));
+      alert(message());
     }
+
+/////////////////////////////////////////
+
+    // var name = 'Joe';
+    // function message() {
+    //   return 'hey there, ' + name + '!';
+    // }
+
+    // function sayHello() {
+    //   alert(message());
+    //   name = 'Bob';
+    //   alert(message());
+    // }
+
+//////////////////////////////////////
+
+    // var name = 'joe';
+    // function message(name){
+    // return 'Hey there ' + name + ', imma hit you with a stick!'; 
+    // }
+
+    // function sayHello() {
+    //   alert(message());
+    //   name = 'bob';
+    //   alert(message());
+    // }
+    
+    ////////////////////////////////
+
+    // var name = 'joe';
+
+    // function message(name) {
+    //   var name = 'alastair';
+    //  return 'Hey there ' + name + ', Imma hit you with a stick';
+    // }
+    // function sayHello() {
+    //  alert(message('peter'));
+    // }
   </script>
   </head>
   <body onload='sayHello()'>
